@@ -1,24 +1,26 @@
 # Download Log Analyzer
-
-## Authors:Shivam Sharma ,Rishabh Gupta & Abhinav Gupta
-
 ## Functionality:-
 
-This log analyzer will analyze the downloads by all types of users in narmada/nis servers in IIIT Jabalpur and take necessary actions in their user directory.This is basically a utilizing tool which can delete the unnecessary items like video files and files greater than some large Mb.You can view the downloads by any user with size of files and date of modification date.
+This log analyzer will analyze the downloads by all types of users in narmada/nis server in IIIT Jabalpur and take necessary actions in their user directory.This tool can be used to delete the unnecessary items like video files in case of memory shortage. 
+
+This utility can be used for monitoring the space usage and moderating the content.
 
 ## Flow of actions:-
 
-1.Ask the administrator to enter into a particular directory like faculty ,lab ,staff & student.
-2.Perform action on faculty ,lab & staff such as
-	(i) Categorized downloads by type(movies,music,documents etc).
-	(ii) List the downloads with date of last modification.
-	(iii) Delete the files greater than size provided by administrator.
-3.Perform action on student	especially on individual , whole group , particular batch or particular branch .
-	(i) Total space taken by a group ,batch or branch.
-	(ii) Delete the files greater than size provided by administrator.
-4.Perform action on known ID/Roll No of any student ,staff ,faculty or lab instructor and directory structure is fetched from passwd.txt.
-	(i) Categorized downloads by type(movies,music,documents etc).
-	(ii) List the downloads with date of last modification.
-	(iii) Delete the files greater than size provided by administrator.
-5.All deleted downloads are stored in delete.log with structure 
-		ID/Roll No:File Name:Size Of file:Time of delete
+1. Ask the administrator to enter into a particular directory like faculty ,lab ,staff & student.
+2. Perform action on faculty ,lab & staff such as
+    1. Categorized downloads by type(movies,music,documents etc).
+    2. List the downloads with date of last modification.
+    3. Delete the files greater than size provided by administrator.
+3. Perform action on student especially on individual , whole group , particular batch or particular branch .
+    1. Total space taken by a group ,batch or branch.
+    2. Delete the files greater than size provided by administrator.
+4. Perform action on known ID/Roll No of any student ,staff ,faculty or lab instructor and directory structure is fetched from passwd.txt.
+    1. Categorized downloads by type(movies,music,documents etc).
+    2. List the downloads with date of last modification.
+    3. Delete the files greater than size provided by administrator.
+5. All deleted downloads are stored in delete.log with structure
+
+            ID/Roll No:File Name:Size Of file:Time of delete
+
+#### Authors: Shivam Sharma ,Rishabh Gupta & Abhinav Gupta
