@@ -1,9 +1,12 @@
-Authors:Shivam Sharma(2011224) ,Rishabh Gupta(2011127) & Abhinav Gupta(2011001)
-			Functionality:-
+# Download Log Analyzer
 
-This log analyzer will analyze the downloads by all types of users in narmada/nis and take necessary actions in their user directory.This is basically a utilizing tool which can delete the unnecessary items like video files and files greater than some large Mb.You can view the downloads by any user with size of files and date of modification date.
+## Authors:Shivam Sharma ,Rishabh Gupta & Abhinav Gupta
 
-			Flow of actions:-
+## Functionality:-
+
+This log analyzer will analyze the downloads by all types of users in narmada/nis servers in IIIT Jabalpur and take necessary actions in their user directory.This is basically a utilizing tool which can delete the unnecessary items like video files and files greater than some large Mb.You can view the downloads by any user with size of files and date of modification date.
+
+## Flow of actions:-
 
 1.Ask the administrator to enter into a particular directory like faculty ,lab ,staff & student.
 2.Perform action on faculty ,lab & staff such as
