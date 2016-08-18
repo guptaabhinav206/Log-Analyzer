@@ -405,7 +405,7 @@ elif [ $num = 5 ]
 then
 	echo -n "Enter the ID/RollNo of a person of which you have to analyze the downloads:"
 	read id
-	x=$(grep -w "`echo $id`" ~/passwd.txt)
+	x=$(grep -w "`echo $id`" /etc/passwd)
 	if [ "X$x" = "X" ]
 	then
 		echo "ID:$x doesn't exist."
